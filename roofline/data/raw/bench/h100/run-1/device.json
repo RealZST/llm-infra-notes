@@ -1,0 +1,10 @@
+{
+  "name": "NVIDIA H100 80GB HBM3",
+  "memory_bytes": 85017493504,
+  "l2_bytes": 52428800,
+  "sm_count": 132,
+  "major": 9,
+  "minor": 0,
+  "arch": "sm_90",
+  "backend": "cuda"
+}

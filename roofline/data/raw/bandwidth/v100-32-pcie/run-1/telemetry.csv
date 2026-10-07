@@ -1,0 +1,2 @@
+t_s,name,temperature.gpu,power.draw [W],power.limit [W],clocks.current.sm [MHz],clocks.current.memory [MHz],utilization.gpu [%],utilization.memory [%]
+0.000,Tesla V100-PCIE-32GB,38,36.72,250.00,1125,877,0,0

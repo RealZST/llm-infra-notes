@@ -1,0 +1,2 @@
+t_s,name,temperature.gpu,power.draw [W],power.limit [W],clocks.current.sm [MHz],clocks.current.memory [MHz],utilization.gpu [%],utilization.memory [%]
+0.000,NVIDIA GeForce RTX 4080,40,31.68,320.00,285,5001,0,0

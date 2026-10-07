@@ -1,0 +1,15 @@
+{
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "dtype": "bfloat16",
+  "attention_implementation": "sdpa",
+  "batches": [1, 8, 16],
+  "prompt_lengths": [128, 1024, 4096],
+  "generated_tokens": 64,
+  "warmup_sequences": 2,
+  "repeats": 7,
+  "counter_layer": 14,
+  "counter_cases": [[1, 1024], [8, 1024], [8, 4096]],
+  "cache_validation_rms_tolerance": 0.05,
+  "seed": 20261005
+}

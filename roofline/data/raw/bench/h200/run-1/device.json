@@ -1,0 +1,10 @@
+{
+  "name": "NVIDIA H200",
+  "memory_bytes": 150109880320,
+  "l2_bytes": 62914560,
+  "sm_count": 132,
+  "major": 9,
+  "minor": 0,
+  "arch": "sm_90",
+  "backend": "cuda"
+}

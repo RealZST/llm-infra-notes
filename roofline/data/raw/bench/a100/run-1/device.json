@@ -1,0 +1,10 @@
+{
+  "name": "NVIDIA A100-SXM4-80GB",
+  "memory_bytes": 85093777408,
+  "l2_bytes": 41943040,
+  "sm_count": 108,
+  "major": 8,
+  "minor": 0,
+  "arch": "sm_80",
+  "backend": "cuda"
+}

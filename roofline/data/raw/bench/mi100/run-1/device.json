@@ -1,0 +1,10 @@
+{
+  "name": "AMD Instinct MI100",
+  "memory_bytes": 34342961152,
+  "l2_bytes": 8388608,
+  "sm_count": 120,
+  "major": 9,
+  "minor": 0,
+  "arch": "gfx908:sramecc+:xnack-",
+  "backend": "hip"
+}

@@ -1,0 +1,3 @@
+t_s,name,temperature.gpu,power.draw [W],power.limit [W],clocks.current.sm [MHz],clocks.current.memory [MHz],utilization.gpu [%],utilization.memory [%]
+0.000,NVIDIA GH200 144G HBM3e,28,85.42,900.00,345,3201,0,0
+1.008,NVIDIA GH200 144G HBM3e,29,111.60,900.00,1980,3201,47,44

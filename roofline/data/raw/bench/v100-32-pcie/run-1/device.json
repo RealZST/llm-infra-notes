@@ -1,0 +1,10 @@
+{
+  "name": "Tesla V100-PCIE-32GB",
+  "memory_bytes": 34072559616,
+  "l2_bytes": 6291456,
+  "sm_count": 80,
+  "major": 7,
+  "minor": 0,
+  "arch": "sm_70",
+  "backend": "cuda"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "NVIDIA GeForce RTX 4080",
+  "memory_bytes": 16720199680,
+  "l2_bytes": 67108864,
+  "sm_count": 76,
+  "major": 8,
+  "minor": 9,
+  "arch": "sm_89",
+  "backend": "cuda"
+}

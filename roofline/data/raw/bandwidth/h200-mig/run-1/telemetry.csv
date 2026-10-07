@@ -1,0 +1,2 @@
+t_s,name,temperature.gpu,power.draw [W],power.limit [W],clocks.current.sm [MHz],clocks.current.memory [MHz],utilization.gpu [%],utilization.memory [%]
+0.000,NVIDIA H200,44,286.94,700.00,1980,3201,[N/A],[N/A]

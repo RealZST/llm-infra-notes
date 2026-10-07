@@ -1,0 +1,10 @@
+{
+  "name": "AMD Instinct MI210",
+  "memory_bytes": 68702699520,
+  "l2_bytes": 8388608,
+  "sm_count": 104,
+  "major": 9,
+  "minor": 0,
+  "arch": "gfx90a:sramecc+:xnack-",
+  "backend": "hip"
+}

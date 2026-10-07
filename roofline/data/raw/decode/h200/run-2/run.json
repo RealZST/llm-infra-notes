@@ -1,0 +1,39 @@
+{
+  "mode": "performance",
+  "device": {
+    "name": "NVIDIA H200",
+    "memory_bytes": 150109880320,
+    "sm_count": 132,
+    "major": 9,
+    "minor": 0
+  },
+  "software": {
+    "model_id": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "dtype": "bfloat16",
+    "torch": "2.6.0+cu124",
+    "torch_cuda": "12.4",
+    "transformers": "4.51.3",
+    "attention_implementation": "sdpa",
+    "cache": "DynamicCache",
+    "logits_to_keep": 1,
+    "seed": 20261005
+  },
+  "timing_protocol": "GPU events span forward+greedy argmax; host wall spans synchronous eager loop. Resident model/input; tokenization and loading excluded. Fixed output length including EOS.",
+  "generated_tokens": 64,
+  "warmup_sequences": 2,
+  "repeats": 7,
+  "batches": [
+    1,
+    8,
+    16
+  ],
+  "prompt_lengths": [
+    128,
+    1024,
+    4096
+  ],
+  "oom_cases": [],
+  "reference_eligible": true,
+  "device_condition": "No active thermal slowdown observed in available records"
+}

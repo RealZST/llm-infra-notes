@@ -1,0 +1,10 @@
+{
+  "name": "NVIDIA H200 MIG 3g.71gb",
+  "memory_bytes": 74893492224,
+  "l2_bytes": 30801920,
+  "sm_count": 60,
+  "major": 9,
+  "minor": 0,
+  "arch": "sm_90",
+  "backend": "cuda"
+}

@@ -1,0 +1,27 @@
+target,case,warning,value
+v100-32,copy:fp32:warm:0.0:1024.0:0.0:0.0,IQR/median > 10%,0.1125000370978081
+v100-32,gemm:fp64:cold:1024.0:1024.0:1024.0:0.0,IQR/median > 10%,0.1708711254176722
+h100,gemm:bf16:warm:4096.0:4096.0:4096.0:0.0,IQR/median > 10%,0.1346021156704117
+h100,gemm:fp8_e4m3:warm:512.0:8192.0:8192.0:0.0,IQR/median > 10%,0.1426643002830545
+h100,gemm:fp8_e4m3:warm:2048.0:8192.0:8192.0:0.0,IQR/median > 10%,0.2029038776820022
+h200,gemm:fp16:warm:8192.0:8192.0:8192.0:0.0,IQR/median > 10%,0.1197259036562523
+h200,gemm:fp8_e4m3:warm:4096.0:4096.0:4096.0:0.0,IQR/median > 10%,0.1515831206666871
+b300,add:fp32:warm:0.0:1024.0:0.0:0.0,IQR/median > 10%,0.1248735463905566
+b300,gemm:fp16:warm:256.0:256.0:256.0:0.0,IQR/median > 10%,0.268525943866911
+b300,gemm:fp16:warm:512.0:512.0:512.0:0.0,IQR/median > 10%,0.1197040891654257
+b300,gemm:fp8_e4m3:warm:256.0:256.0:256.0:0.0,IQR/median > 10%,0.1232354844014862
+b300,gemm:nvfp4:warm:256.0:256.0:256.0:0.0,IQR/median > 10%,0.2349165123201878
+b300,gemm:nvfp4:warm:512.0:512.0:512.0:0.0,IQR/median > 10%,0.1255176222033145
+b300,gemm:nvfp4:warm:2048.0:2048.0:2048.0:0.0,IQR/median > 10%,0.1895619976089465
+b300,gemm:nvfp4:warm:8192.0:8192.0:8192.0:0.0,IQR/median > 10%,0.1970925574905733
+b300,gemm:nvfp4:warm:2048.0:8192.0:8192.0:0.0,IQR/median > 10%,0.1434356915414741
+gh200,gemm:fp16:warm:4096.0:4096.0:4096.0:0.0,IQR/median > 10%,0.1424210759607833
+gh200,gemm:bf16:warm:4096.0:4096.0:4096.0:0.0,IQR/median > 10%,0.1453113771186623
+gh200,gemm:fp8_e4m3:warm:4096.0:4096.0:4096.0:0.0,IQR/median > 10%,0.1555644448354946
+rtx4080,gemm:bf16:cold:512.0:512.0:512.0:0.0,IQR/median > 10%,0.1164021182353126
+rtx4080,gemm:fp8_e4m3:warm:2048.0:2048.0:2048.0:0.0,IQR/median > 10%,0.1013088698421112
+b300,gemm:nvfp4:warm:8192.0:8192.0:8192.0:0.0,Above empirical reference by >10%; inspect cache/model,1.1672962236609514
+b300,gemm:nvfp4:warm:2048.0:8192.0:8192.0:0.0,Above empirical reference by >10%; inspect cache/model,1.1182071685802957
+rtx4080,gemm:fp8_e4m3:warm:16.0:8192.0:8192.0:0.0,Above empirical reference by >10%; inspect cache/model,1.9632676636688795
+rtx4080,gemm:fp8_e4m3:warm:32.0:8192.0:8192.0:0.0,Above empirical reference by >10%; inspect cache/model,1.8276185895561627
+rtx4080,gemm:fp8_e4m3:warm:64.0:8192.0:8192.0:0.0,Above empirical reference by >10%; inspect cache/model,1.9563181692170617
