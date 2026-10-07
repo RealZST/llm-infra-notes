@@ -99,4 +99,4 @@ python3 code/rebuild_tables.py --raw out/raw --out out/tables-local
 
 ## Software and hardware
 
-GPUs in `data/`: V100 SXM2 16 GB / 32 GB, V100 PCIe 32 GB, A100 SXM4 80 GB, H100 SXM 80 GB HBM3, H200, H200 MIG 3g.71gb, B300, GH200 144 GB, AMD MI100, AMD MI210, GeForce RTX 4080. The note's figures use a subset; `summary.csv` has all of them. Figure 2 leaves out B300: its copy bandwidth keeps rising past its L2 size (126.5 MiB): 2729 GB/s at 32 MiB, 2759 GB/s at 128 MiB, 3636 GB/s at 512 MiB. Warm vs cold GEMM points are in `summary.csv` (`cache` column) but not plotted in the note.
+GPUs in `data/`: V100 SXM2 16 GB / 32 GB, V100 PCIe 32 GB, A100 SXM4 80 GB, H100 SXM 80 GB HBM3, H200, H200 MIG 3g.71gb, B300, GH200 144 GB, AMD MI100, AMD MI210, GeForce RTX 4080.
